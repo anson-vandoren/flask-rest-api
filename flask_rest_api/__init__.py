@@ -1,5 +1,7 @@
 """Api extension initialization"""
 
+import warnings
+
 from webargs.flaskparser import abort  # noqa
 
 from .spec import APISpecMixin
@@ -8,6 +10,12 @@ from .pagination import Page  # noqa
 from .error_handler import ErrorHandlerMixin
 
 __version__ = '0.17.0'
+
+
+warnings.warn(
+    "flask-rest-api has been renamed to flask-smorest.",
+    DeprecationWarning,
+)
 
 
 class Api(APISpecMixin, ErrorHandlerMixin):
