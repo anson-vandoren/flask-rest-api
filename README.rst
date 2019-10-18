@@ -2,6 +2,10 @@
 flask-rest-api
 ==============
 
+**Deprecation warning**: flask-rest-api has been renamed to `flask-smorest <https://github.com/marshmallow-code/flask-smorest>`_.
+
+------------------------------------------------------------
+
 .. image:: https://img.shields.io/pypi/v/flask-rest-api.svg
     :target: https://pypi.org/project/flask-rest-api/
     :alt: Latest version

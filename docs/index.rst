@@ -3,6 +3,10 @@ flask-rest-api: build a REST API on Flask using Marshmallow
 
 Release v\ |version|. (:ref:`Changelog <changelog>`)
 
+**Deprecation warning**: flask-rest-api has been renamed to flask-smorest_.
+
+------------------------------------------------------------
+
 **flask-rest-api** is a framework library for creating REST APIs.
 
 It uses Flask as a webserver, and marshmallow_ to serialize and deserialize data.
@@ -58,4 +62,5 @@ Project Info
 .. _marshmallow: https://marshmallow.readthedocs.io/
 .. _webargs: https://webargs.readthedocs.io/
 .. _apispec: https://apispec.readthedocs.io/
+.. _flask-smorest: https://flask-smorest.readthedocs.io/
 .. _OpenAPI: https://www.openapis.org/
