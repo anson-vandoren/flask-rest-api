@@ -1,6 +1,13 @@
 Changelog
 ---------
 
+0.17.1 (2019-10-18)
++++++++++++++++++++
+
+Other changes:
+
+- Add a ``DeprecationWarning`` to warn about the rename to ``flask-smorest``.
+
 0.17.0 (2019-09-19)
 +++++++++++++++++++
 
